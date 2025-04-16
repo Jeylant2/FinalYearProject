@@ -223,7 +223,7 @@ def all_bookings_page(environ):
     html+='&nbsp;<label for="booked_from">between</label>&nbsp;<input type="text" name="booked_from"/>'
     html+='&nbsp;<label for="booked_to">and</label>&nbsp;<input type="text" name="booked_to"/>'
     html+='<input type="submit" name="submit" value="Add Booking"/></form>'
-    return page("Bookings for %s" %user['name'], html)
+    return page("Bookings For All Users", html)
 def bookings_user_page(environ):
     user_id=int(shift_path_info(environ))
     user=get_user(user_id)
