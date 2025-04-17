@@ -55,17 +55,17 @@ while True:
 
 #comparison for fines and to calculate how long the user stayed in the car park
     
-def time_to_num(time_str):
-    hh,mm,ss=map(a,time.str.split(':'))
-    hh1,mm1,ss1=map(b,time.str.split(':'))
-    return ss1 + 60*(mm1+60*hh1)
+#def time_to_num(time_str):
+#    hh,mm,ss=map(a,time.str.split(':'))
+#    hh1,mm1,ss1=map(b,time.str.split(':'))
+#    return ss1 + 60*(mm1+60*hh1)
     
-    while 'hh1' 'mm1' 'ss1'>'hh' 'mm' 'ss':
-        statement("Parking is valid")
+#    while 'hh1' 'mm1' 'ss1'>'hh' 'mm' 'ss':
+#        statement("Parking is valid")
     
-    total='hh1-hh','mm1-mm','ss1-ss'
-    if total>='6' '15' '00':
-        print("you have been fined £15")
+#    total='hh1-hh','mm1-mm','ss1-ss'
+#    if total>='6' '15' '00':
+#        print("you have been fined £15")
 
 
 cv2.waitKey(0)
